@@ -18,12 +18,13 @@ buildscript {
     ext.kotlin_version = '1.4.31'
     ext.compose_version = '1.0.0-beta03'
     ext.coroutines_version = '1.4.2'
-    ext.koin_version = '3.0.1-beta-2'
+    ext.koin_version = '3.0.1-beta-1'
     ext.coil_version = '0.6.0'
     ext.nav_compose_version = '1.0.0-alpha09'
 
     repositories {
         google()
+        jcenter()
         mavenCentral()
     }
 
@@ -40,6 +41,7 @@ plugins {
 subprojects {
     repositories {
         google()
+        jcenter()
         mavenCentral()
     }
 
